@@ -1,0 +1,11 @@
+# Xu ly anh va tinh toan
+opencv-python
+Pillow
+numpy
+matplotlib
+scikit-image
+
+# Moi truong chay notebook
+notebook
+jupyterlab
+nbconvert
