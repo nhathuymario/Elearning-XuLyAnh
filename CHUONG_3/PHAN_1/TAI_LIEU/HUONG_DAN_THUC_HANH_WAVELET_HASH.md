@@ -14,20 +14,16 @@ Notebook đọc trực tiếp hai thư mục. `image/tuong_tu/` cần ít nhất
 - tập test chỉ dùng báo cáo kết quả cuối;
 - seed ngẫu nhiên được cố định để tái lập.
 
-## Các phần trong notebook
+## Sáu phần trong notebook
 
-1. Kiểm tra môi trường và tạo thư mục.
-2. Đọc và hiển thị hai nhóm ảnh do người học tự thêm.
-3. Trực quan phân rã wavelet.
-4. Tạo hash và kiểm tra độ dài.
-5. Tạo cặp có nhãn, tính Hamming.
-6. Chọn ngưỡng tốt nhất trên validation bằng balanced accuracy.
-7. Đánh giá test: confusion matrix, accuracy, sensitivity, specificity, precision.
-8. Vẽ ROC và tính AUC.
-9. So sánh nhiều họ wavelet.
-10. Truy vấn tìm top-k ảnh gần nhất.
+1. Chuẩn bị dữ liệu ảnh tương tự và không tương tự.
+2. Trích xuất ma trận Wavelet cho từng ảnh và trực quan LL, LH, HL, HH.
+3. Lượng tử hóa hệ số Wavelet và tạo mã băm 64 bit.
+4. Tạo cặp có nhãn và tính khoảng cách Hamming.
+5. Chọn ngưỡng trên validation; đánh giá test bằng Accuracy, Sensitivity, Specificity, Precision, confusion matrix và ROC/AUC.
+6. Khảo sát và so sánh `haar`, `db2`, `db4`, `sym4` trên cùng validation/test.
 
-Mỗi mục trong notebook có ba phần: **Input**, **Output** và **Nhận xét**. Toàn bộ hàm xử lý nằm trong notebook, không cần import `wavelet_hash.py`.
+Notebook chỉ giữ đúng sáu phần của đề. Hàm phục vụ bước nào nằm ngay trong bước đó; mỗi bước đều có **Input**, **Output**, chú thích mã và **Nhận xét**.
 
 ## Vì sao không dùng khung mã nguyên trạng trong slide?
 

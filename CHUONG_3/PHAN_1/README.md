@@ -13,16 +13,16 @@ Thư mục này chuyển phần lý thuyết trong slide thành một bài thự
 
 Notebook tự đọc hai thư mục ảnh, tự tạo cặp và gán nhãn. Toàn bộ hàm Wavelet Hash được đặt ngay trong notebook nên không cần file Python riêng và không cần sửa đường dẫn trong mã.
 
-## Nội dung đã hoàn thành
+## Sáu phần của bài thực hành
 
-- Biến đổi wavelet 2D và trực quan các dải LL, LH, HL, HH.
-- Tạo Wavelet Hash độ dài cố định và tính khoảng cách Hamming.
-- Tạo cặp ảnh tương tự/không tương tự có nhãn.
-- Tự chọn ngưỡng trên tập validation, không chọn bằng tập test.
-- Tính accuracy, sensitivity (recall), specificity và precision.
-- Vẽ ROC, tính AUC và ma trận nhầm lẫn.
-- So sánh `haar`, `db2`, `db4`, `sym4`.
-- Tìm kiếm ảnh tương tự theo top-k.
+1. Chuẩn bị dữ liệu ảnh tương tự và không tương tự.
+2. Trích xuất, hiển thị các ma trận Wavelet LL, LH, HL, HH.
+3. Lượng tử hóa hệ số Wavelet và tạo mã băm 64 bit.
+4. So sánh mã băm bằng khoảng cách Hamming.
+5. Đánh giá Accuracy, Sensitivity, Specificity, Precision và ROC/AUC.
+6. So sánh hiệu suất các họ Wavelet `haar`, `db2`, `db4`, `sym4`.
+
+Notebook chỉ có đúng sáu phần trên. Hàm xử lý thuộc phần nào được đặt và chú thích ngay trong phần đó.
 
 ## Môi trường
 
