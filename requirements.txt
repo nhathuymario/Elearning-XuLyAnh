@@ -4,6 +4,7 @@ Pillow
 numpy
 matplotlib
 scikit-image
+PyWavelets
 
 # Moi truong chay notebook
 notebook

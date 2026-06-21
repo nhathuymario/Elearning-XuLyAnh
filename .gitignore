@@ -1,0 +1,34 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache and test/type-check cache
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated results from practical exercises
+**/outputs/
+**/image/generated/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
