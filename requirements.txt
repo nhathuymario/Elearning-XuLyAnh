@@ -5,6 +5,8 @@ numpy
 matplotlib
 scikit-image
 PyWavelets
+torch
+facenet-pytorch
 
 # Moi truong chay notebook
 notebook
